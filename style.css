@@ -93,8 +93,44 @@ body{
 
 
   
+/* experience secion stles */
 
+.card-container{
+ 
+}
+    .card{
+      position: relative;
+      width: 500px;
+      padding: 2rem;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      border-top-left-radius:10px;
+      border-bottom-left-radius:10px;
+      
+      
+    }
+    .card::before{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 10px;
+      background: linear-gradient(to bottom, #ff0000, #f7de21);
+      border-top-left-radius:10px;
+      border-bottom-left-radius:10px;
+      
+
+    }
+    .card h1{
+      text-transform:uppercase;
+    }
+    .card h3{
+      text-transform:capitalize;
+      color: #f4511e;
+    }
+
+  .experience-section{
     
-
-  
+    margin: 20px 0px;
+  }
  
